@@ -1,0 +1,48 @@
+.center {
+  position: absolute;
+  width: 480px;
+  height: 294px;
+  left: calc(50% - 480px / 2);
+  top: 201px;
+  background-color: rgba(151, 128, 128, 0.4);
+  box-shadow: 10px 61px 123px 11px rgba(0, 0, 0, 0.7);
+  border-radius: 14px;
+}
+
+.border {
+  position: absolute;
+  width: 407px;
+  height: 127px;
+  left: 36px;
+  top: 82px;
+  color: white;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 125.19%;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.btn {
+  position: absolute;
+  border-radius: 50px;
+  width: 49px;
+  height: 49px;
+  left: 190px;
+  top: 184px;
+  background: #55fcaa;
+}
+
+button {
+  border-radius: 50px;
+  width: 49px;
+  height: 49px;
+  background: #55fcaa;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: chartreuse;
+}
